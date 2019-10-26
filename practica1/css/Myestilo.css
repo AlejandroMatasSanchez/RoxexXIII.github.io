@@ -1,0 +1,36 @@
+@import url(indexLayoutStyle.css);
+
+h1{/*especifidad 1*/
+    font-weight: bold;
+    background-color: coral;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 300%;   
+    letter-spacing: 0.25em;
+    border-radius: 10%;
+}
+body{/*especifidad 1*/
+    background-color: rgb(255, 249, 220); 
+}
+h1::first-letter{/*especifidad 1*/
+    font-size: 200%;
+}
+h2{/*especifidad 1*/
+    font-size: 200%;
+}
+p{/*especifidad 1*/
+    text-indent: 1%;
+}
+#Inicio::first-letter{/*especifidad 101*/
+    font-size: 250%;
+}
+a:link{/*especifidad 1*/
+    color: darkblue;
+}
+a:visited{/*especifidad 1*/
+    color: crimson;
+    text-decoration-line: underline;
+}
+ul,td:hover{/*especifidad 1*/
+    color: blue;
+}
