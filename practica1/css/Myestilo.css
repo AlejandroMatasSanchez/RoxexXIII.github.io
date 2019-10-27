@@ -1,11 +1,11 @@
 @import url(myLayout.css);
 
-body{/*especifidad 1*/
-    background-color: rgb(255, 249, 220); 
-}
 aside, li{
     padding-bottom: 10px;
     padding-right: 10px;
+}
+body{/*especifidad 1*/
+    background-color: rgb(255, 249, 220); 
 }
 h1::first-letter{/*especifidad 1*/
     font-size: 200%;
@@ -24,9 +24,6 @@ h2{/*especifidad 1*/
 }
 p{/*especifidad 1*/
     text-indent: 1%;
-}
-li{
-    padding: 10px;
 }
 #Inicio::first-letter{/*especifidad 101*/
     font-size: 250%;
