@@ -24,6 +24,9 @@ h2{/*especifidad 1*/
 p{/*especifidad 1*/
     text-indent: 1%;
 }
+li{
+    padding: 10px;
+}
 #Inicio::first-letter{/*especifidad 101*/
     font-size: 250%;
 }
