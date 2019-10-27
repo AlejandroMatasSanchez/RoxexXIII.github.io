@@ -1,14 +1,14 @@
-body {
+body {/*especifidad 001*/
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     grid-template-rows: 0.1fr 1fr 0.1fr;
     grid-template-areas: "Header Header" "Aside Content" "Footer Footer";
   }
+
+  header { grid-area: Header; } /*especifidad 001*/
   
-  header { grid-area: Header; }
+  aside { grid-area: Aside; }/*especifidad 001*/
   
-  aside { grid-area: Aside; }
+  main { grid-area: Content; }/*especifidad 001*/
   
-  main { grid-area: Content; }
-  
-  footer { grid-area: Footer; }
+  footer { grid-area: Footer; }/*especifidad 001*/

@@ -1,16 +1,16 @@
 @import url(myLayout.css);
 
-aside, li{
-    padding-bottom: 30px;
+aside, li{/*Especifidad 001*/
+    padding-bottom: 10px;
     padding-right: 10px;
 }
-body{/*especifidad 1*/
+body{/*especifidad 001*/
     background-color: rgb(255, 249, 220); 
 }
-h1::first-letter{/*especifidad 1*/
+h1::first-letter{/*especifidad 002*/
     font-size: 200%;
 }
-h1{/*especifidad 1*/
+h1{/*especifidad 001*/
     font-weight: bold;
     background-color: coral;
     text-transform: uppercase;
@@ -19,22 +19,26 @@ h1{/*especifidad 1*/
     letter-spacing: 0.25em;
     border-radius: 10%;
 }
-h2{/*especifidad 1*/
+h2{/*especifidad 001*/
     font-size: 200%;
 }
-p{/*especifidad 1*/
+p{/*especifidad 001*/
     text-indent: 1%;
 }
 #Inicio::first-letter{/*especifidad 101*/
     font-size: 250%;
 }
-a:link{/*especifidad 1*/
+a:link{/*especifidad 011*/
     color: darkblue;
 }
-a:visited{/*especifidad 1*/
+a:visited{/*especifidad 011*/
+    color: purple;
+    text-decoration-line: underline;
+}
+a:active{/*especifidad 011*/
     color: crimson;
     text-decoration-line: underline;
 }
-ul,td:hover{/*especifidad 1*/
+ul,td:hover{/*especifidad 011*/
     color: blue;
 }
