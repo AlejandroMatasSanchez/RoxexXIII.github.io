@@ -1,7 +1,7 @@
 @import url(myLayout.css);
 
 aside, li{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     padding-right: 10px;
 }
 body{/*especifidad 1*/
