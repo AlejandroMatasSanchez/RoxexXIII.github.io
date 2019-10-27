@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "Header Header Header Header" "Aside Content Content Content" "Footer Footer Footer Footer";
+  }
+  
+  header { grid-area: Header; }
+  
+  footer { grid-area: Footer; }
+  
+  aside { grid-area: Aside; }
+  
+  main { grid-area: Content; }
