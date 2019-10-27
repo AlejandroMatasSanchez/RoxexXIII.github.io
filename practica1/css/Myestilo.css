@@ -1,5 +1,14 @@
 @import url(myLayout.css);
 
+aside{
+    padding: 10px;
+}
+body{/*especifidad 1*/
+    background-color: rgb(255, 249, 220); 
+}
+h1::first-letter{/*especifidad 1*/
+    font-size: 200%;
+}
 h1{/*especifidad 1*/
     font-weight: bold;
     background-color: coral;
@@ -8,15 +17,6 @@ h1{/*especifidad 1*/
     font-size: 300%;   
     letter-spacing: 0.25em;
     border-radius: 10%;
-}
-body{/*especifidad 1*/
-    background-color: rgb(255, 249, 220); 
-}
-aside{
-    padding: 10px;
-}
-h1::first-letter{/*especifidad 1*/
-    font-size: 200%;
 }
 h2{/*especifidad 1*/
     font-size: 200%;
