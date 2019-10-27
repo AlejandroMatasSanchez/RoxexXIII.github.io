@@ -1,21 +1,11 @@
-@import url(normalLayoutStyle.css);
 
 h1{/*especifidad 1*/
-    font-weight: bold;
-    background-color: coral;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 300%;   
-    letter-spacing: 0.25em;
-    border-radius: 10%;
+    font-size: 200%;
 }
 body{/*especifidad 1*/
     background-color: rgb(255, 249, 220); 
 }
 h1::first-letter{/*especifidad 1*/
-    font-size: 200%;
-}
-h2{/*especifidad 1*/
     font-size: 200%;
 }
 p{/*especifidad 1*/
