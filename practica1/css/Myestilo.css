@@ -13,7 +13,7 @@ body{/*especifidad 1*/
     background-color: rgb(255, 249, 220); 
 }
 aside{
-    padding: 5%;
+    padding: 10px;
 }
 h1::first-letter{/*especifidad 1*/
     font-size: 200%;
