@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css">
+        <title>Calculadora Cientifica</title>
+        <script src = "CalculadoraBasica.js"></script>
+        <script src = "CalculadoraCientifica.js"></script>
+
+    </head>
+    <body>
+        <h1>
+           Calculadora Cientifica
+        </h1>
+
+        <table id="calculadora">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="valor" maxlength="20" value="0" readonly="true" class ="valor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="potencia" value="exp" class ="boton" onclick="calculadoraCientifica.operar(operacion.PORTENCIA)">
+                </td>
+                <td>
+                    <input type="Button" id="CE" value="CE" class ="boton" onclick="calculadoraCientifica.borrar()">
+                </td>    
+                <td>
+                    <input type="Button" id="C" value="C" class ="boton" onclick="calculadoraCientifica.reset()">
+                </td>
+                <td>
+                    <input type="Button" id="Logaritmo" value="ln" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.LOGARITMO)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="sqrt" value="sqrt" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.RAIZ)">
+                </td>        
+                <td>
+                    <input type="Button" id="Seno" value="sin" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.SENO)">
+                </td>
+                <td>
+                    <input type="Button" id="Coseno" value="cos" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.COSENO)">
+                </td>
+                <td>
+                    <input type="Button" id="Tangente" value="tan" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.TANGENTE)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="Secante" value="sec" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.SECANTE)">
+                </td>
+                <td>
+                    <input type="Button" id="Cosecante" value="cosec" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.COSECANTE)">
+                </td>
+                <td>
+                    <input type="Button" id="Cotangente" value="cotan" class ="boton" onclick="calculadoraCientifica.operarCientifico(opCientifica.COTANGENTE)">
+                </td>
+                <td>
+                    <input type="Button" id="Dividir" value="/" class ="boton" onclick="calculadoraCientifica.operar(operacion.DIVIDIR)">
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <input type="Button" id="7" value="7" class ="boton" onclick="calculadoraCientifica.ponerNumero('7')"> 
+                </td>
+                <td>
+                    <input type="Button" id="8" value="8" class ="boton" onclick="calculadoraCientifica.ponerNumero('8')">
+                </td>
+                <td>
+                    <input type="Button" id="9" value="9" class ="boton" onclick="calculadoraCientifica.ponerNumero('9')">
+                </td>
+                <td>
+                    <input type="Button" id="Multiplicar" value="*" class ="boton" onclick="calculadoraCientifica.operar(operacion.MULTIPLICAR)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="4" value="4" class ="boton" onclick="calculadoraCientifica.ponerNumero('4')">
+                </td>
+                <td>
+                    <input type="Button" id="5" value="5" class ="boton" onclick="calculadoraCientifica.ponerNumero('5')">
+                </td>
+                <td>
+                    <input type="Button" id="6" value="6" class ="boton" onclick="calculadoraCientifica.ponerNumero('6')">
+                </td>
+                <td>
+                    <input type="Button" id="Restar" value="-" class ="boton" onclick="calculadoraCientifica.operar(operacion.RESTAR)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="1" value="1" class ="boton" onclick="calculadoraCientifica.ponerNumero('1')">
+                </td>
+                <td>
+                    <input type="Button" id="2" value="2" class ="boton" onclick="calculadoraCientifica.ponerNumero('2')">
+                </td>
+                <td>
+                    <input type="Button" id="3" value="3" class ="boton" onclick="calculadoraCientifica.ponerNumero('3')">
+                </td>
+                <td>
+                    <input type="Button" id="Sumar" value="+" class ="boton" onclick="calculadoraCientifica.operar(operacion.SUMAR)">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="Button" id="0" value="0" class ="boton2" onclick="calculadoraCientifica.ponerNumero('0')">
+                </td>
+             <td>
+                    <input type="Button" id="," value="," class ="boton" onclick="calculadoraCientifica.ponerComa()">
+                </td>
+                <td>
+                <input type="Button" id="Calcular" value="=" class ="boton" onclick="calculadoraCientifica.calcular()">
+                </td>
+            </tr>
+        </table>
+
+    </body>   
+</html>

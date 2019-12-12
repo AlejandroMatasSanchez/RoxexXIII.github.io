@@ -1,0 +1,20 @@
+body{
+    background: rgba(0, 255, 221, 0.74);
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+label, input{
+    font-size: 20px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: rgb(209, 246, 255);
+}
+
+p{
+    font-size: 20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css">
+        <title>Calculadora RPN</title>
+        <script src = "CalculadoraRPN.js"></script>
+    </head>
+    <body>
+        <h1>
+           Calculadora RPN
+        </h1>
+
+        <table id="calculadora">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="valor1" maxlength="20" value="0" readonly="true" class ="valor1">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="valor2" maxlength="20" value="0" readonly="true" class ="valor2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="potencia" value="exp" class ="boton" onclick="operar(operacion.PORTENCIA)">
+                </td>
+                <td>
+                    <input type="Button" id="CE" value="CE" class ="boton" onclick="borrar()">
+                </td>
+                <td>
+                    <input type="Button" id="C" value="C" class ="boton" onclick="reset()">
+                </td>
+                <td>
+                    <input type="Button" id="Dividir" value="/" class ="boton" onclick="operar(operacion.DIVIDIR)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="7" value="7" class ="boton" onclick="ponerNumero('7')"> 
+                </td>
+                <td>
+                    <input type="Button" id="8" value="8" class ="boton" onclick="ponerNumero('8')">
+                </td>
+                <td>
+                    <input type="Button" id="9" value="9" class ="boton" onclick="ponerNumero('9')">
+                </td>
+                <td>
+                    <input type="Button" id="Multiplicar" value="*" class ="boton" onclick="operar(operacion.MULTIPLICAR)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="4" value="4" class ="boton" onclick="ponerNumero('4')">
+                </td>
+                <td>
+                    <input type="Button" id="5" value="5" class ="boton" onclick="ponerNumero('5')">
+                </td>
+                <td>
+                    <input type="Button" id="6" value="6" class ="boton" onclick="ponerNumero('6')">
+                </td>
+                <td>
+                    <input type="Button" id="Restar" value="-" class ="boton" onclick="operar(operacion.RESTAR)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Button" id="1" value="1" class ="boton" onclick="ponerNumero('1')">
+                </td>
+                <td>
+                    <input type="Button" id="2" value="2" class ="boton" onclick="ponerNumero('2')">
+                </td>
+                <td>
+                    <input type="Button" id="3" value="3" class ="boton" onclick="ponerNumero('3')">
+                </td>
+                <td>
+                    <input type="Button" id="Sumar" value="+" class ="boton" onclick="operar(operacion.SUMAR)">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="Button" id="0" value="0" class ="boton2" onclick="ponerNumero('0')">
+                </td>
+             <td>
+                    <input type="Button" id="," value="," class ="boton" onclick="ponerComa()">
+                </td>
+                <td>
+                <input type="Button" id="Enter" value="Enter" class ="boton" onclick="moverNumero()">
+                </td>
+            </tr>
+        </table>
+
+    </body>   
+</html>

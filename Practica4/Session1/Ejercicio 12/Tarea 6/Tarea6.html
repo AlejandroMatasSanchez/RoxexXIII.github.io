@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geolocalizacion</title>
+    <link rel="stylesheet" href="Tarea6.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="Tarea6.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1RqkZzlCaTCxiI_rGSqKSy6ZJfEpjVj4"></script>
+
+</head>
+<body>
+    <h1>Type the position</h1>
+    <label>Latitud</label>
+    <input id="latitud" type="number" placeholder="Latitud"/>
+    <br><label>Longitud</label>
+    <input id="longitud" type="number" placeholder="Longitud"/>
+    <br><button onclick="geolocalizador.updateCoord()">Localizar!</button>
+
+    <div id = "map"></div>
+</body>
+</html>

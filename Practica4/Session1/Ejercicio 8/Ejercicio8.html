@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos meteorologicos</title>
+    <link rel="stylesheet" href="Ejercicio8.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="Ejercicio8.js"></script>
+</head>
+<body>
+    <h1>Datos meteorologicos</h1>
+    <select id = "list" oninput="changeCity()">
+        <option value="Madrid">Madrid</option>
+        <option value="Londres">Londres</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Paris">Paris</option>
+        <option value="Berlin">Berlin</option>
+      </select>
+      <h2 id = "ciudad">Ciudad:</h2>
+      <p id = "tiempo">Tiempo: </p>
+      <p id = "descripcion">Descripcion: </p>
+      <p id = "temperatura">Temperatura:</p>
+      <p id = "temperaturaMin">Temperatura minima: </p>
+      <p id = "temperaturaMax">Temperatura maxima: </p>
+      <p id = "presion">Presion:</p>
+      <p id = "humedad">Humedad: </p>
+      <p id = "vientoVel">Velocidad del viento: </p>
+      <img id= "icon" src="" alt="imagen que corresponde al tiempo actual">
+    </body>
+</html>

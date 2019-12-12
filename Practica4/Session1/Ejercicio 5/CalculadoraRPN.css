@@ -1,0 +1,32 @@
+#calculadora {
+    background: cadetblue;
+    border: 10;
+    border-radius: 10%;
+}
+        
+#calculadora{
+    padding: 10px;
+}
+        
+.valor1, .valor2 {    
+    height: 25px;
+    width: 200px;
+    background-color: #acff38;
+    color: #467702;
+    border-radius: 10%;
+}
+        
+.boton {
+    height: 50px;
+    width: 50px; 
+    border: 1px solid #000; 
+    border-radius: 29%;
+    background-color: #fff;
+}
+
+.boton2 { 
+    height: 50px;
+    width: 100px;
+    border: 1px solid #000;  
+    border-radius: 29%;
+    background-color: #fff;}

@@ -1,0 +1,17 @@
+body{
+    background-color: ivory;
+}
+h1{
+    font-size: 40px;
+}
+button{
+    border-radius: 15px;
+    font-size: 20px;
+}
+p{
+    font-size: x-large;
+}
+#map{
+    height: 400px;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+h1{
+    background-color: cornflowerblue;
+    font-size: 200%;
+    border-radius: 20%;
+
+}
+
+#list{
+    font-size: 150%;
+    border-radius: 20%;
+}
+
+#ciudad{
+    background-color: rgba(255, 255, 0, 0.808);
+    border-radius: 20%;
+}
+
+p{
+    font-size: 110%;
+}

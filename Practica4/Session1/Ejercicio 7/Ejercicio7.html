@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>Ejercicio 7</title>
+        <link rel="stylesheet" href="Ejercicio7.css">
+        <meta charset="utf-8" />
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="Ejercicio7.js"></script>
+    </head>
+    <body>
+        
+       <h1>Ocultar/Mostrar</h1>
+       
+       <button onclick="util.ocultar('h1')">Esconde h1</button>
+       <button onclick="util.mostrar('h1')">Muestra h1</button>
+
+       <button onclick="util.ocultar('h2')">Esconde h2</button>
+       <button onclick="util.mostrar('h2')">Muestra h2</button>
+
+       <button onclick="util.ocultar('h3')">Esconde h3</button>
+       <button onclick="util.mostrar('h3')">Muestra h3</button>
+
+       <button onclick="util.ocultar('p')">Esconde parrafos</button>
+       <button onclick="util.mostrar('p')">Muestra parrafos</button>
+
+       <button onclick="util.ocultar('table')">Esconde tabla</button>
+       <button onclick="util.mostrar('table')">Muestra tablas</button>
+
+       <h2>Modificar Elementos</h2>
+
+       <button onclick="util.cambiar('h1')">Cambiar h1</button>
+       <button onclick="util.cambiar('h2')">Cambiar h2</button>
+       <button onclick="util.cambiar('h3')">Cambiar h3</button>
+       <button onclick="util.cambiar('p')">Cambiar p</button>
+
+       <h3>Este es el h3</h3>
+
+       <button onclick="util.crear('ANTES', 'h3')">Añadir antes</button>
+       <button onclick="util.crear('DESPUES', 'h3')">Añadir despues</button>
+
+       <p>Esto no es un h, es un p</p>
+
+       <button onclick="util.borrar('p')">Borrar parrafo</button>
+
+       <button onclick="util.mostrarInformacion()">Mostrar informacion</button>
+       
+       <table id="tabla">
+            <tr>
+                <th colspan="2">Pues esto es una tabla</th>
+            </tr>
+            <tr>
+                <td>Esto es efectivamente una tabla.</td>
+                <td>Quien lo habria dicho...</td>
+            </tr>
+            <tr>  
+                <td>Nunca me hubiera esperado que esto fuera una tabla.</td>
+                <td>Sorprendete revelacion la existencia de esta tabla</td>
+            </tr>
+    </body>
+</html>

@@ -1,0 +1,469 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type= "text/xsl" href= "rutas.xsl"?>
+
+<RUTAS>
+<RUTA>
+    <NOMBRE>Ruta por Hervas</NOMBRE>
+        <TIPO>Turismo rural</TIPO>
+        <TRANSPORTE>A pie</TRANSPORTE>
+        <F.INICIO>
+            <DIA_INICIO>10 de Noviembre</DIA_INICIO>
+            <HORA_INICIO>10:00</HORA_INICIO>
+        </F.INICIO>
+        <F.FIN>
+            <DIA_FIN>10 de Noviembre</DIA_FIN>
+            <HORA_FIN>13:00</HORA_FIN>
+        </F.FIN>        
+        <DURACION unidades = "horas">3</DURACION>
+        <AGENCIA>Sin Agencia</AGENCIA>
+        <DESCRIPCION>La ruta consiste en pasear por el pueblo.</DESCRIPCION>
+        <DEMOGRAFIA>Se puede ir con niños</DEMOGRAFIA>
+        <LUGAR_INICIO>Hervas</LUGAR_INICIO>
+        <CALLE_INICIO>Plaza de la Corredera</CALLE_INICIO>
+        <COORDENADAS>
+                <LONGITUD>-5.858788</LONGITUD>
+                <LATITUD>40.273423</LATITUD>
+                <ALTITUD>688</ALTITUD>
+        </COORDENADAS>
+        <REFERENCIAS>
+            <REFERENCIA url = "https://es.wikipedia.org/wiki/Herv%C3%A1s" name = "Wikipedia"></REFERENCIA>
+            <REFERENCIA url = "https://www.escapadarural.com/que-hacer/hervas" name = "Escapada Rural"></REFERENCIA>
+            <REFERENCIA url = "http://www.hervas.es/" name = "Hervas.es"></REFERENCIA>
+        </REFERENCIAS>
+        <CALIFICACION>9</CALIFICACION>
+    <HITOS>
+        <HITO>
+            <NOMBRE>Iglesia Santa Maria de Aguas Vivas</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-5.858181</LONGITUD>
+                <LATITUD>40.274457</LATITUD>
+                <ALTITUD>695</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">200</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Iglesia+Santa+Maria+de+Aguas+Vivas/@40.2746788,-5.8582221,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPpl3LofXmhmeNshJvvOM2vUQmkJg6QeO99nmuG!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPpl3LofXmhmeNshJvvOM2vUQmkJg6QeO99nmuG%3Dw203-h114-k-no!7i4032!8i2268!4m13!1m7!3m6!1s0xd3e4f1185efa4f5:0xde14af8487e8ed68!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3b1!8m2!3d40.2728719!4d-5.861097!3m4!1s0xd3e4f02eec77445:0xd84fbbf8e2864ca8!8m2!3d40.2746789!4d-5.8582221</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Iglesia+Santa+Maria+de+Aguas+Vivas/@40.2746788,-5.8582221,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOa0dLf0nx-9nFueOWrScNcY4BxKsIfU2vebtGe!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOa0dLf0nx-9nFueOWrScNcY4BxKsIfU2vebtGe%3Dw203-h135-k-no!7i4898!8i3265!4m13!1m7!3m6!1s0xd3e4f1185efa4f5:0xde14af8487e8ed68!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3b1!8m2!3d40.2728719!4d-5.861097!3m4!1s0xd3e4f02eec77445:0xd84fbbf8e2864ca8!8m2!3d40.2746789!4d-5.8582221</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Iglesia+Santa+Maria+de+Aguas+Vivas/@40.2746789,-5.8582221,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipO5O3uM92FWtDABRsEqk_DGmgfMjlSizkvr3I-O!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO5O3uM92FWtDABRsEqk_DGmgfMjlSizkvr3I-O%3Dw203-h134-k-no!7i4928!8i3264!4m13!1m7!3m6!1s0xd3e4f1185efa4f5:0xde14af8487e8ed68!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3b1!8m2!3d40.2728719!4d-5.861097!3m4!1s0xd3e4f02eec77445:0xd84fbbf8e2864ca8!8m2!3d40.2746789!4d-5.8582221</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Puente Romano</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-5.857064</LONGITUD>
+                <LATITUD>40.275937</LATITUD>
+                <ALTITUD>682</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">500</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Puente+Romano/@40.2757804,-5.8570506,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMkjYtAs9v9n1O8c1VD_XpeCSeCVVNMMiMdS7s_!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMkjYtAs9v9n1O8c1VD_XpeCSeCVVNMMiMdS7s_%3Dw160-h120-k-no!7i5184!8i3888!4m13!1m7!3m6!1s0xd3e4f1185efa4f5:0xde14af8487e8ed68!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3b1!8m2!3d40.2728719!4d-5.861097!3m4!1s0xd3e4efd65b789c5:0xb2b951db6722b760!8m2!3d40.2757804!4d-5.8570506</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Puente+Romano/@40.2757804,-5.8570506,3a,92.3y,90t/data=!3m8!1e2!3m6!1sAF1QipNR9qiuLqKR2qAnQXzE8mPr__hEvDVWScFwNOwc!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNR9qiuLqKR2qAnQXzE8mPr__hEvDVWScFwNOwc%3Dw203-h152-k-no!7i800!8i600!4m13!1m7!3m6!1s0xd3e4f1185efa4f5:0xde14af8487e8ed68!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3b1!8m2!3d40.2728719!4d-5.861097!3m4!1s0xd3e4efd65b789c5:0xb2b951db6722b760!8m2!3d40.2757804!4d-5.8570506</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Puente+Romano/@40.2757804,-5.8570506,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN4_4ylUpN8Zk_zuzWigeapPLQaC_MEbW9Fxl0!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN4_4ylUpN8Zk_zuzWigeapPLQaC_MEbW9Fxl0%3Dw203-h150-k-no!7i4208!8i3120!4m13!1m7!3m6!1s0xd3e4f1185efa4f5:0xde14af8487e8ed68!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3b1!8m2!3d40.2728719!4d-5.861097!3m4!1s0xd3e4efd65b789c5:0xb2b951db6722b760!8m2!3d40.2757804!4d-5.8570506</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Plaza del Convento</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-5.856188</LONGITUD>
+                <LATITUD>40.273224,</LATITUD>
+                <ALTITUD>688</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">500</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/San+Juan+Bautista/@40.2729081,-5.8561576,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOHp8YJ4dtBwGxNvnmP8jFNLr0DTOoE7yeo9Fw!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOHp8YJ4dtBwGxNvnmP8jFNLr0DTOoE7yeo9Fw%3Dw203-h152-k-no!7i5664!8i4248!4m22!1m13!2m12!1sHoteles!3m6!1sHoteles!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3s0xd3e4f1185efa4f5:0xde14af8487e8ed68!4m2!1d-5.861097!2d40.2728719!5m3!5m2!4m1!1i2!3m7!1s0xd3e4ee2ab8aa1e1:0xd7e0d16e43a4773e!5m2!4m1!1i2!8m2!3d40.2729083!4d-5.8561575</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/San+Juan+Bautista/@40.2729081,-5.8561576,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMx7HhxvJSmYPIzlFom37EwGLR9Qwq2SHOPw3wk!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMx7HhxvJSmYPIzlFom37EwGLR9Qwq2SHOPw3wk%3Dw203-h152-k-no!7i3968!8i2976!4m22!1m13!2m12!1sHoteles!3m6!1sHoteles!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3s0xd3e4f1185efa4f5:0xde14af8487e8ed68!4m2!1d-5.861097!2d40.2728719!5m3!5m2!4m1!1i2!3m7!1s0xd3e4ee2ab8aa1e1:0xd7e0d16e43a4773e!5m2!4m1!1i2!8m2!3d40.2729083!4d-5.8561575</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/San+Juan+Bautista/@40.2729081,-5.8561576,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipM_PpuYEJS45YbQXZ-I65ALocB1Zz6KTvpX1ULw!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM_PpuYEJS45YbQXZ-I65ALocB1Zz6KTvpX1ULw%3Dw203-h135-k-no!7i3936!8i2624!4m22!1m13!2m12!1sHoteles!3m6!1sHoteles!2zMTA3MDAgSGVydsOhcywgQ8OhY2VyZXM!3s0xd3e4f1185efa4f5:0xde14af8487e8ed68!4m2!1d-5.861097!2d40.2728719!5m3!5m2!4m1!1i2!3m7!1s0xd3e4ee2ab8aa1e1:0xd7e0d16e43a4773e!5m2!4m1!1i2!8m2!3d40.2729083!4d-5.8561575</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+    </HITOS>
+</RUTA>
+
+<RUTA>
+    <NOMBRE>Ruta por Almuñecar</NOMBRE>
+        <TIPO>Turismo de costa</TIPO>
+        <TRANSPORTE>A pie</TRANSPORTE>
+        <F.INICIO>
+            <DIA_INICIO>22 de junio</DIA_INICIO>
+            <HORA_INICIO>10:00</HORA_INICIO>
+        </F.INICIO>
+        <F.FIN>
+            <DIA_FIN>22 de junio</DIA_FIN>
+            <HORA_FIN>19:00</HORA_FIN>
+        </F.FIN>        
+        <DURACION unidades = "horas">9</DURACION>
+        <AGENCIA>Sin Agencia</AGENCIA>
+        <DESCRIPCION>La ruta consiste en visitar diferentes puntos clave de Almuñecar</DESCRIPCION>
+        <DEMOGRAFIA>Se puede ir con niños</DEMOGRAFIA>
+        <LUGAR_INICIO>Almuñecar</LUGAR_INICIO>
+        <CALLE_INICIO>Camino Rio Seco</CALLE_INICIO>
+        <COORDENADAS>
+                <LONGITUD>-3.690695</LONGITUD>
+                <LATITUD>36.736785</LATITUD>
+                <ALTITUD>24</ALTITUD>
+        </COORDENADAS>
+        <REFERENCIAS>
+            <REFERENCIA url = "http://www.granadadirect.com/costa/almunecar/" name = "Granada Direct"></REFERENCIA>
+            <REFERENCIA url = "https://www.ruralidays.com/viajar/guia-de-viaje/que-ver-y-que-hacer-en-almunecar/" name = "Ruralidays"></REFERENCIA>
+            <REFERENCIA url = "http://www.turismoalmunecar.es/" name = "TurismoAlmuñecar"></REFERENCIA>
+        </REFERENCIAS>
+        <CALIFICACION>8</CALIFICACION>
+    <HITOS>
+        <HITO>
+            <NOMBRE>Acueducto Romano</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-3.689848</LONGITUD>
+                <LATITUD>36.736698</LATITUD>
+                <ALTITUD>25</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">80</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/36%C2%B044'12.1%22N+3%C2%B041'23.5%22W/@36.7367397,-3.6897721,3a,75y/data=!3m8!1e2!3m6!1sAF1QipM_kLZaB0YjBEw8ohyLXBCzcTa0MyWSwkRHqlUK!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM_kLZaB0YjBEw8ohyLXBCzcTa0MyWSwkRHqlUK%3Dw360-h270-k-no!7i4128!8i3096!4m14!1m7!3m6!1s0xd7188919c3a8483:0x8639b1106cb3c8a6!2zQWxtdcOxw6ljYXIsIEdyYW5hZGE!3b1!8m2!3d36.7774061!4d-3.7333537!3m5!1s0x0:0x0!7e2!8m2!3d36.736698!4d-3.689848?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Acueducto+Romano+De+Almu%C3%B1ecar/@36.7364799,-3.689875,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNhVycoUMXMtraA5o0ybae8nBLtBPDg-jK2FgB1!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNhVycoUMXMtraA5o0ybae8nBLtBPDg-jK2FgB1%3Dw160-h120-k-no!7i4032!8i3016!4m13!1m7!3m6!1s0xd7188919c3a8483:0x8639b1106cb3c8a6!2zQWxtdcOxw6ljYXIsIEdyYW5hZGE!3b1!8m2!3d36.7774061!4d-3.7333537!3m4!1s0xd7188908f36608d:0x708bf07b69d8d152!8m2!3d36.7364799!4d-3.689875?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Acueducto+Romano+De+Almu%C3%B1ecar/@36.7364799,-3.689875,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPTWd1Ow9UdT9jQkKFkdcCnZ_wn1qR4q3l4H9d-!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPTWd1Ow9UdT9jQkKFkdcCnZ_wn1qR4q3l4H9d-%3Dw203-h113-k-no!7i4160!8i2336!4m13!1m7!3m6!1s0xd7188919c3a8483:0x8639b1106cb3c8a6!2zQWxtdcOxw6ljYXIsIEdyYW5hZGE!3b1!8m2!3d36.7774061!4d-3.7333537!3m4!1s0xd7188908f36608d:0x708bf07b69d8d152!8m2!3d36.7364799!4d-3.689875?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Museo Arqueológico Cueva de Siete Palacios</NOMBRE>
+            <DESCRIPCION>Sitio para conocer la historia de Almuñecar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-3.691736</LONGITUD>
+                <LATITUD>36.732998</LATITUD>
+                <ALTITUD>24</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">550</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Museo+Arqueol%C3%B3gico+Cueva+de+Siete+Palacios/@36.7328023,-3.6914478,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN_2XMdLY8ZG-xlgHmXnpK7-ddmWnmpZ7OFGg6P!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN_2XMdLY8ZG-xlgHmXnpK7-ddmWnmpZ7OFGg6P%3Dw360-h202-k-no!7i4128!8i2322!4m13!1m7!3m6!1s0xd7188919c3a8483:0x8639b1106cb3c8a6!2zQWxtdcOxw6ljYXIsIEdyYW5hZGE!3b1!8m2!3d36.7774061!4d-3.7333537!3m4!1s0xd71889b1f868799:0x51889d3f290abe07!8m2!3d36.7328023!4d-3.6914478?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Museo+Arqueol%C3%B3gico+Cueva+de+Siete+Palacios/@36.7328023,-3.6914478,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNX6kCdE5uHYMJvCsKT6-D6qU2c8Oodwl7xKgMy!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNX6kCdE5uHYMJvCsKT6-D6qU2c8Oodwl7xKgMy%3Dw203-h304-k-no!7i3744!8i5616!4m13!1m7!3m6!1s0xd7188919c3a8483:0x8639b1106cb3c8a6!2zQWxtdcOxw6ljYXIsIEdyYW5hZGE!3b1!8m2!3d36.7774061!4d-3.7333537!3m4!1s0xd71889b1f868799:0x51889d3f290abe07!8m2!3d36.7328023!4d-3.6914478?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Museo+Arqueol%C3%B3gico+Cueva+de+Siete+Palacios/@36.7328023,-3.6914478,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN9mGyj2eBoBOGqGNeJxsHhUNnzh1dA_AvkjuR2!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN9mGyj2eBoBOGqGNeJxsHhUNnzh1dA_AvkjuR2%3Dw203-h152-k-no!7i2048!8i1536!4m13!1m7!3m6!1s0xd7188919c3a8483:0x8639b1106cb3c8a6!2zQWxtdcOxw6ljYXIsIEdyYW5hZGE!3b1!8m2!3d36.7774061!4d-3.7333537!3m4!1s0xd71889b1f868799:0x51889d3f290abe07!8m2!3d36.7328023!4d-3.6914478?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Castillo de San Miguel</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-3.692640</LONGITUD>
+                <LATITUD>36.731096</LATITUD>
+                <ALTITUD>30</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">300</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Castillo+de+San+Miguel/@36.7307514,-3.6925945,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipND3L-FZQC5jyiQvMHEkYTcvMVXGEggQ7l8TxB5!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipND3L-FZQC5jyiQvMHEkYTcvMVXGEggQ7l8TxB5%3Dw160-h120-k-no!7i4160!8i3120!4m12!1m6!3m5!1s0xd71889b1f868799:0x51889d3f290abe07!2sMuseo+Arqueol%C3%B3gico+Cueva+de+Siete+Palacios!8m2!3d36.7328023!4d-3.6914478!3m4!1s0xd71889b53aaaaab:0x5165edfd0cf91fea!8m2!3d36.7307514!4d-3.6925945?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Castillo+de+San+Miguel/@36.7307514,-3.6925945,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipM-XrHrXy0kyK9yKoa6c-5qK3kQegxaTKeGoMiz!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM-XrHrXy0kyK9yKoa6c-5qK3kQegxaTKeGoMiz%3Dw203-h270-k-no!7i2448!8i3264!4m12!1m6!3m5!1s0xd71889b1f868799:0x51889d3f290abe07!2sMuseo+Arqueol%C3%B3gico+Cueva+de+Siete+Palacios!8m2!3d36.7328023!4d-3.6914478!3m4!1s0xd71889b53aaaaab:0x5165edfd0cf91fea!8m2!3d36.7307514!4d-3.6925945?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Castillo+de+San+Miguel/@36.7307514,-3.6925945,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPRL7S6Cp4lIbKgMTF4GustxPrU7vOEGtpTuaTz!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPRL7S6Cp4lIbKgMTF4GustxPrU7vOEGtpTuaTz%3Dw203-h112-k-no!7i4032!8i2240!4m12!1m6!3m5!1s0xd71889b1f868799:0x51889d3f290abe07!2sMuseo+Arqueol%C3%B3gico+Cueva+de+Siete+Palacios!8m2!3d36.7328023!4d-3.6914478!3m4!1s0xd71889b53aaaaab:0x5165edfd0cf91fea!8m2!3d36.7307514!4d-3.6925945?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+    </HITOS>
+</RUTA>
+
+<RUTA>
+    <NOMBRE>Ruta por Sevilla</NOMBRE>
+        <TIPO>Turismo cultural</TIPO>
+        <TRANSPORTE>A pie</TRANSPORTE>
+        <F.INICIO>
+            <DIA_INICIO>1 de septiembre</DIA_INICIO>
+            <HORA_INICIO>9:00</HORA_INICIO>
+        </F.INICIO>
+        <F.FIN>
+            <DIA_FIN>1 de septiembre</DIA_FIN>
+            <HORA_FIN>20:00</HORA_FIN>
+        </F.FIN>        
+        <DURACION unidades = "horas">11</DURACION>
+        <AGENCIA>Sin Agencia</AGENCIA>
+        <DESCRIPCION>La ruta consiste en visitar los lugares mas famosos de Sevilla</DESCRIPCION>
+        <DEMOGRAFIA>Se puede ir con niños</DEMOGRAFIA>
+        <LUGAR_INICIO>Sevilla</LUGAR_INICIO>
+        <CALLE_INICIO>Avda de la Constitución</CALLE_INICIO>
+        <COORDENADAS>
+                <LONGITUD>-5.993992</LONGITUD>
+                <LATITUD>37.385997</LATITUD>
+                <ALTITUD>7</ALTITUD>
+        </COORDENADAS>
+        <REFERENCIAS>
+            <REFERENCIA url = "https://www.visitasevilla.es/turismo-de-sevilla" name ="Visita Sevilla"></REFERENCIA>
+            <REFERENCIA url = "https://www.sevilla.org/" name = "Sevilla.org"></REFERENCIA>
+            <REFERENCIA url = "https://www.spain.info/es/que-quieres/ciudades-pueblos/grandes-ciudades/sevilla.html" name = "Spain.info"></REFERENCIA>
+        </REFERENCIAS>
+        <CALIFICACION>9</CALIFICACION>
+    <HITOS>
+        <HITO>
+            <NOMBRE>Catedral de Sevilla</NOMBRE>
+            <DESCRIPCION>Lugar de culto</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-5.992172</LONGITUD>
+                <LATITUD>37.386040</LATITUD>
+                <ALTITUD>7</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">50</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Catedral+de+Sevilla/@37.3858104,-5.9928437,3a,81.3y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Ft2.gstatic.com%2Fimages%3Fq%3Dtbn:ANd9GcQavjK-KPwAxbSkzoh_Pq8v5GZsjMkm9m0-Jr7kjwnMsaLyL1On!2e7!3e27!6s%2F%2Flh3.googleusercontent.com%2Fproxy%2Fmg3OhBAkM3d-z1DCTbIAaPya3M2xo8MEkAgitEoJ-xC-fwiBw-cecrfU6bsLDO47IKEAMphRCRkzhQL1DC5ZEUNFbOsRYqA6wjLkpCgpp3fH-7Cu17eOp6wGeQltltQdy1nImA9Ye5seJz7aV1qQbw5VPMeuQG4%3Dw203-h135-k-no!7i1080!8i720!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126c1755b54781:0xe49da05de71e6de5!8m2!3d37.3858247!4d-5.9931068?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Catedral+de+Sevilla/@37.3851241,-5.9929635,3a,75y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fmedia2.trover.com%2FT%2F58d69752f2b7d3079c00e5e6%2Ffixedw.jpg!2e7!3e27!6s%2F%2Flh3.googleusercontent.com%2Fproxy%2FPwc7Tx7J1hAb7MBQXLhv02mQiCHLrXl8Kcq5kQlJ5ilhgjo74G5giEKBaMQnMwKYT9BMi0HQGHsop8hz88KcV438_E9iU_OEicSQb5uX1wufDkx5weW6w8liLe0kX8OVMgaC1468gOjGMPdnJxYKU-akWPOv_Q%3Dw140-h186-k-no!7i1836!8i2448!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126c1755b54781:0xe49da05de71e6de5!8m2!3d37.3858247!4d-5.9931068?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Catedral+de+Sevilla/@37.386305,-5.993966,2a,75y,340h,90t/data=!3m6!1e1!3m4!1sAcReVBXGpo5D13DowQzKbQ!2e0!7i13312!8i6656!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126c1755b54781:0xe49da05de71e6de5!8m2!3d37.3858247!4d-5.9931068?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Real Alcazar de Sevilla</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-5.991220</LONGITUD>
+                <LATITUD>37.384783</LATITUD>
+                <ALTITUD>7</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">20</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Real+Alc%C3%A1zar+de+Sevilla/@37.3830519,-5.9902257,3a,75y,90t/data=!3m8!1e2!3m6!1shttps:%2F%2Fmedia2.trover.com%2FT%2F55c6d542ae8d8a762d00a63c%2Ffixedw.jpg!2e7!3e27!6s%2F%2Flh6.googleusercontent.com%2Fproxy%2F0uxtIk6slYFbTZHmnEiNhEjRx5YRkB0fcyra8jG05PHMEK2CRwnUdPeasbQBN39W0fD9BYO6tBs4IIJe8V_pDEDZIC2cGeg8JOCyAnz_-yF4PmoenkgZ6hec_vavMPr3Dgq9xy4Nr4S7ZvhokQuI82l7D-RyZg%3Dw179-h120-k-no!7i2448!8i1639!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126c198c41a24b:0xbaa976bfaec1fe87!8m2!3d37.3830525!4d-5.9902257?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Real+Alc%C3%A1zar+de+Sevilla/@37.382675,-5.9905682,3a,97.3y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Ft0.gstatic.com%2Fimages%3Fq%3Dtbn:ANd9GcSOCaLGDwe4AB23tOFQ8XYaNE1iEyxp_JQeG6nuhILgBkP21JCE!2e7!3e27!6s%2F%2Flh6.googleusercontent.com%2Fproxy%2FgGTj6KhxrBXAR5Agb1yiJiD56enJFnIQg7uygIU286zGLLzdjNeIjL6un2RhLU2J4r7FMkcmLBjPgHmwXGpM84sXvyutvyv27sgeP9x4VhrbY8kpTgtOXaLnPxb5Ye1TI-gFgO3s6mq8T89glr5x6g_DIgbnXw%3Dw203-h121-k-no!7i1080!8i649!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126c198c41a24b:0xbaa976bfaec1fe87!8m2!3d37.3830525!4d-5.9902257?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Real+Alc%C3%A1zar+de+Sevilla/@37.382675,-5.9905682,2a,75y,40h,100t/data=!3m8!1e1!3m6!1sIhxWaCRfWnKp5B31dVyI9Q!2e0!3e2!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3DIhxWaCRfWnKp5B31dVyI9Q%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D40%26pitch%3D-10%26thumbfov%3D100!7i13312!8i6656!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126c198c41a24b:0xbaa976bfaec1fe87!8m2!3d37.3830525!4d-5.9902257?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Plaza de España</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-5.986673</LONGITUD>
+                <LATITUD>37.377051</LATITUD>
+                <ALTITUD>7</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">2000</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Sevilla/@37.3771957,-5.986893,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMHFfCddew0JLaIAjBKMJO0YcYyDvkTShstmR7i!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMHFfCddew0JLaIAjBKMJO0YcYyDvkTShstmR7i%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0xd126c1114be6291:0x34f018621cfe5648!8m2!3d37.3890924!4d-5.9844589?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Plaza+de+Espa%C3%B1a/@37.37671,-5.9876699,3a,60y,56.34h,90t/data=!3m6!1e1!3m4!1sds3hDMa_yMUX_fN9mT7jRw!2e0!7i16384!8i8192!4m13!1m7!3m6!1s0xd126c1114be6291:0x34f018621cfe5648!2sSevilla!3b1!8m2!3d37.3890924!4d-5.9844589!3m4!1s0xd126ea76eb6b10f:0x8926f5e874d3da39!8m2!3d37.3771957!4d-5.986893?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Sevilla/@37.3771957,-5.986893,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOzpOCUJ7YOIl1wK1EGOx1UQlqli7jBEBdtptl7!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOzpOCUJ7YOIl1wK1EGOx1UQlqli7jBEBdtptl7%3Dw203-h114-k-no!7i4048!8i2276!4m5!3m4!1s0xd126c1114be6291:0x34f018621cfe5648!8m2!3d37.3890924!4d-5.9844589?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+    </HITOS>
+</RUTA>
+
+<RUTA>
+    <NOMBRE>Ruta por Córdoba</NOMBRE>
+        <TIPO>Turismo cultural</TIPO>
+        <TRANSPORTE>A pie</TRANSPORTE>
+        <F.INICIO>
+            <DIA_INICIO>4 de septiembre</DIA_INICIO>
+            <HORA_INICIO>9:00</HORA_INICIO>
+        </F.INICIO>
+        <F.FIN>
+            <DIA_FIN>4 de septiembre</DIA_FIN>
+            <HORA_FIN>19:00</HORA_FIN>
+        </F.FIN>        
+        <DURACION unidades = "horas">10</DURACION>
+        <AGENCIA>Sin Agencia</AGENCIA>
+        <DESCRIPCION>La ruta consiste en conocer los lugares emblemáticos de Córdoba</DESCRIPCION>
+        <DEMOGRAFIA>Se puede ir con niños</DEMOGRAFIA>
+        <LUGAR_INICIO>Córdoba</LUGAR_INICIO>
+        <CALLE_INICIO>Paseo de la Victoria</CALLE_INICIO>
+        <COORDENADAS>
+                <LONGITUD>-4.785133</LONGITUD>
+                <LATITUD>37.881459</LATITUD>
+                <ALTITUD>106</ALTITUD>
+        </COORDENADAS>
+        <REFERENCIAS>
+            <REFERENCIA url = "https://www.cordobaturismo.es/" name = "Cordoba Turismo"></REFERENCIA>
+            <REFERENCIA url = "https://www.cordoba.es/" name = "Cordoba.es"></REFERENCIA>
+            <REFERENCIA url = "https://www.andalucia.org/es/destinos/provincias/cordoba/" name = "Andalucia.org"></REFERENCIA>
+        </REFERENCIAS>
+        <CALIFICACION>9</CALIFICACION>
+    <HITOS>
+        <HITO>
+            <NOMBRE>Mezquita de Córdoba</NOMBRE>
+            <DESCRIPCION>Lugar de culto</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-4.779862</LONGITUD>
+                <LATITUD>37.878162</LATITUD>
+                <ALTITUD>106</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">2100</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Mezquita-Catedral+de+C%C3%B3rdoba/@37.8789056,-4.7793869,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN0WsGYWy1vuVQ-ZHNhMgxyhWRkPyWWsYM1WVSN!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN0WsGYWy1vuVQ-ZHNhMgxyhWRkPyWWsYM1WVSN%3Dw203-h271-k-no!7i3008!8i4016!4m13!1m7!3m6!1s0xd6cdf26f95e0aef:0x4df1d2e8108456c3!2zQ8OzcmRvYmE!3b1!8m2!3d37.8881751!4d-4.7793835!3m4!1s0xd6d2082ce1a16cf:0xefebc353f81bf636!8m2!3d37.8789056!4d-4.7793867?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Mezquita-Catedral+de+C%C3%B3rdoba/@37.8789056,-4.7793869,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOKs7YN0k2qvOx6rcDnZVYCOhFWaUzp76ELqP6D!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOKs7YN0k2qvOx6rcDnZVYCOhFWaUzp76ELqP6D%3Dw205-h100-k-no!7i4032!8i1960!4m13!1m7!3m6!1s0xd6cdf26f95e0aef:0x4df1d2e8108456c3!2zQ8OzcmRvYmE!3b1!8m2!3d37.8881751!4d-4.7793835!3m4!1s0xd6d2082ce1a16cf:0xefebc353f81bf636!8m2!3d37.8789056!4d-4.7793867?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Mezquita-Catedral+de+C%C3%B3rdoba/@37.8789056,-4.7793869,3a,83.1y,90t/data=!3m8!1e2!3m6!1sAF1QipM8U6ffCln3jNg71_P8ritRBQPGVKVbxOqZigQ!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM8U6ffCln3jNg71_P8ritRBQPGVKVbxOqZigQ%3Dw203-h138-k-no!7i1024!8i697!4m13!1m7!3m6!1s0xd6cdf26f95e0aef:0x4df1d2e8108456c3!2zQ8OzcmRvYmE!3b1!8m2!3d37.8881751!4d-4.7793835!3m4!1s0xd6d2082ce1a16cf:0xefebc353f81bf636!8m2!3d37.8789056!4d-4.7793867?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Alcazar de los Reyes Cristianos</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-4.781917</LONGITUD>
+                <LATITUD>37.875940</LATITUD>
+                <ALTITUD>106</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">650</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Alc%C3%A1zar+de+los+Reyes+Cristianos/@37.875098,-4.78308,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMWg0P7K-mMkNYM66jkf4afKObmRZj_AWbg7HyC!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMWg0P7K-mMkNYM66jkf4afKObmRZj_AWbg7HyC%3Dw203-h152-k-no!7i4608!8i3456!4m13!1m7!3m6!1s0xd6cdf26f95e0aef:0x4df1d2e8108456c3!2zQ8OzcmRvYmE!3b1!8m2!3d37.8881751!4d-4.7793835!3m4!1s0xd6d209b9682aa8d:0xf310de2e8efeee4a!8m2!3d37.8750979!4d-4.7830801?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Alc%C3%A1zar+de+los+Reyes+Cristianos/@37.875098,-4.78308,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNKXQ5X9VfeuGoCzYu7LdwITzoN0fhhNJeNA40_!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNKXQ5X9VfeuGoCzYu7LdwITzoN0fhhNJeNA40_%3Dw205-h100-k-no!7i4032!8i1960!4m13!1m7!3m6!1s0xd6cdf26f95e0aef:0x4df1d2e8108456c3!2zQ8OzcmRvYmE!3b1!8m2!3d37.8881751!4d-4.7793835!3m4!1s0xd6d209b9682aa8d:0xf310de2e8efeee4a!8m2!3d37.8750979!4d-4.7830801?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Alc%C3%A1zar+de+los+Reyes+Cristianos/@37.875098,-4.78308,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN-kT0VtYee2AqonUKO486WdxooPHfttLeuBBcm!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN-kT0VtYee2AqonUKO486WdxooPHfttLeuBBcm%3Dw203-h114-k-no!7i4032!8i2268!4m13!1m7!3m6!1s0xd6cdf26f95e0aef:0x4df1d2e8108456c3!2zQ8OzcmRvYmE!3b1!8m2!3d37.8881751!4d-4.7793835!3m4!1s0xd6d209b9682aa8d:0xf310de2e8efeee4a!8m2!3d37.8750979!4d-4.7830801?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Puente Romano</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-4.779120</LONGITUD>
+                <LATITUD>37.877450</LATITUD>
+                <ALTITUD>102</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">400</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Puente+Romano+de+C%C3%B3rdoba/@37.8769996,-4.7783539,3a,81.3y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Ft0.gstatic.com%2Fimages%3Fq%3Dtbn:ANd9GcR32kagR7ceFWmMPzuUNULgvaK9yV2oPE8ocEJZTaIzQSHm_qx7!2e7!3e27!6s%2F%2Flh4.googleusercontent.com%2Fproxy%2Fz0kBjRCo1RIE76KdAzKQZQzLD9iwG4avUdaqHB-cwQomE62-mpw2bqtg_rbHWQ2y8MrQqs-3ht23lLZrik5xYUbK1hV38S-jK2Uro18WZN4Ly0atyeu5O6jvdzYY1elVdMxtzXvVj6h-HpW-WqAdC2j9gVhJVmM%3Dw203-h135-k-no!7i1080!8i720!4m8!1m2!2m1!1sbarrio+de+la+juderia,cordoba!3m4!1s0xd6d209ca1831265:0xd6707a33cf6dd271!8m2!3d37.8769997!4d-4.778354?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Puente+Romano+de+C%C3%B3rdoba/@37.8770002,-4.778354,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMSlkJMFpASh-RXpq5XSjqgVnrVZVYEI7l-H-aJ!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMSlkJMFpASh-RXpq5XSjqgVnrVZVYEI7l-H-aJ%3Dw203-h152-k-no!7i4320!8i3240!4m8!1m2!2m1!1sbarrio+de+la+juderia,cordoba!3m4!1s0xd6d209ca1831265:0xd6707a33cf6dd271!8m2!3d37.8769997!4d-4.778354?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Puente+Romano+de+C%C3%B3rdoba/@37.87665,-4.7806621,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNoiG6H8PnAc3zvUiTMh6pPTtAOFB_oOM-92Isq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNoiG6H8PnAc3zvUiTMh6pPTtAOFB_oOM-92Isq%3Dw203-h152-k-no!7i4032!8i3024!4m8!1m2!2m1!1sbarrio+de+la+juderia,cordoba!3m4!1s0xd6d209ca1831265:0xd6707a33cf6dd271!8m2!3d37.8769997!4d-4.778354?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+    </HITOS>
+</RUTA>
+
+<RUTA>
+    <NOMBRE>Ruta por Toledo</NOMBRE>
+        <TIPO>Turismo cultural</TIPO>
+        <TRANSPORTE>A pie</TRANSPORTE>
+        <F.INICIO>
+            <DIA_INICIO>10 de Mayo</DIA_INICIO>
+            <HORA_INICIO>9:00</HORA_INICIO>
+        </F.INICIO>
+        <F.FIN>
+            <DIA_FIN>10 de Mayo</DIA_FIN>
+            <HORA_FIN>14:00</HORA_FIN>
+        </F.FIN>        
+        <DURACION unidades = "horas">5</DURACION>
+        <AGENCIA>Sin Agencia</AGENCIA>
+        <DESCRIPCION>La ruta consiste en conocer Toledo</DESCRIPCION>
+        <DEMOGRAFIA>Se puede ir con niños</DEMOGRAFIA>
+        <LUGAR_INICIO>Toledo</LUGAR_INICIO>
+        <CALLE_INICIO>Calle Juan Labrador</CALLE_INICIO>
+        <COORDENADAS>
+                <LONGITUD>-4.021751</LONGITUD>
+                <LATITUD>39.858070</LATITUD>
+                <ALTITUD>529</ALTITUD>
+        </COORDENADAS>
+        <REFERENCIAS>
+            <REFERENCIA url = "https://turismo.toledo.es/" name = "Turismo Toledo"></REFERENCIA>
+            <REFERENCIA url = "https://www.spain.info/es/reportajes/un_dia_en_toledo.html" name ="Spain.info"></REFERENCIA>
+            <REFERENCIA url = "https://www.leyendasdetoledo.com/que-ver-en-toledo-una-breve-guia-para-viajar-a-la-ciudad-imperial/" name ="Leyendas Toledo"></REFERENCIA>
+        </REFERENCIAS>
+        <CALIFICACION>8</CALIFICACION>
+    <HITOS>
+        <HITO>
+            <NOMBRE>Alcazar de Toledo</NOMBRE>
+            <DESCRIPCION>Sitio para fotografiar</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-4.021084</LONGITUD>
+                <LATITUD>39.858866</LATITUD>
+                <ALTITUD>529</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">350</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Alc%C3%A1zar+de+Toledo/@39.8577545,-4.0204962,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNLvBcaECy3w5NGAjdJzZkHayEmik-5aOsaVui-!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNLvBcaECy3w5NGAjdJzZkHayEmik-5aOsaVui-%3Dw203-h135-k-no!7i1350!8i899!4m21!1m15!4m14!1m6!1m2!1s0xd6a0ba44d1f343f:0xc4c0f01532752dbb!2sCalle+Juan+Labrador,+45001+Toledo!2m2!1d-4.0217835!2d39.8577177!1m6!1m2!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!2sAlc%C3%A1zar+de+Toledo,+Calle+de+la+Union,+s%2Fn,+45001+Toledo!2m2!1d-4.0204962!2d39.8577545!3m4!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!8m2!3d39.8577545!4d-4.0204962?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Alc%C3%A1zar+de+Toledo/@39.8577545,-4.0204962,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPpdOdG1Ty9WpNNXJlKk6tfKCZiCGVggn6TBqXM!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPpdOdG1Ty9WpNNXJlKk6tfKCZiCGVggn6TBqXM%3Dw203-h101-k-no!7i4160!8i2080!4m21!1m15!4m14!1m6!1m2!1s0xd6a0ba44d1f343f:0xc4c0f01532752dbb!2sCalle+Juan+Labrador,+45001+Toledo!2m2!1d-4.0217835!2d39.8577177!1m6!1m2!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!2sAlc%C3%A1zar+de+Toledo,+Calle+de+la+Union,+s%2Fn,+45001+Toledo!2m2!1d-4.0204962!2d39.8577545!3m4!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!8m2!3d39.8577545!4d-4.0204962?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Alc%C3%A1zar+de+Toledo/@39.8577545,-4.0204962,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOd-z3NIHj0A5Q9llH6rsrZv1rZ1CgvbE6jquu4!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOd-z3NIHj0A5Q9llH6rsrZv1rZ1CgvbE6jquu4%3Dw203-h113-k-no!7i4160!8i2336!4m21!1m15!4m14!1m6!1m2!1s0xd6a0ba44d1f343f:0xc4c0f01532752dbb!2sCalle+Juan+Labrador,+45001+Toledo!2m2!1d-4.0217835!2d39.8577177!1m6!1m2!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!2sAlc%C3%A1zar+de+Toledo,+Calle+de+la+Union,+s%2Fn,+45001+Toledo!2m2!1d-4.0204962!2d39.8577545!3m4!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!8m2!3d39.8577545!4d-4.0204962?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>La catedral primada de Toledo</NOMBRE>
+            <DESCRIPCION>Lugar de culto</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-4.023566</LONGITUD>
+                <LATITUD>39.857489</LATITUD>
+                <ALTITUD>529</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">500</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Santa+Iglesia+Catedral+Primada+de+Toledo,+Toledo/@39.8570997,-4.0235688,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOLCytB1V_sOOXpTLrbeDy5OZmqAqvDaVHd2I0l!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOLCytB1V_sOOXpTLrbeDy5OZmqAqvDaVHd2I0l%3Dw114-h151-k-no!7i658!8i877!4m18!1m12!4m11!1m6!1m2!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!2sAlc%C3%A1zar+de+Toledo,+Calle+de+la+Union,+s%2Fn,+45001+Toledo!2m2!1d-4.0204962!2d39.8577545!1m3!2m2!1d-4.023566!2d39.857489!3m4!1s0xd6a0ba682143eab:0x4664c822c8f25b30!8m2!3d39.8570997!4d-4.0235688?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Santa+Iglesia+Catedral+Primada+de+Toledo,+Toledo/@39.8570997,-4.0235688,3a,78.4y,90t/data=!3m8!1e2!3m6!1sAF1QipNDTQHZtnz6LzgcjFoHsYTfM6HOEMHn3z_VBSeg!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNDTQHZtnz6LzgcjFoHsYTfM6HOEMHn3z_VBSeg%3Dw203-h134-k-no!7i1140!8i758!4m18!1m12!4m11!1m6!1m2!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!2sAlc%C3%A1zar+de+Toledo,+Calle+de+la+Union,+s%2Fn,+45001+Toledo!2m2!1d-4.0204962!2d39.8577545!1m3!2m2!1d-4.023566!2d39.857489!3m4!1s0xd6a0ba682143eab:0x4664c822c8f25b30!8m2!3d39.8570997!4d-4.0235688?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Santa+Iglesia+Catedral+Primada+de+Toledo,+Toledo/@39.8570997,-4.0235688,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNUW2nQJV_SuEB4fwdjQsOEY_wNx72YkN3IloLc!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNUW2nQJV_SuEB4fwdjQsOEY_wNx72YkN3IloLc%3Dw203-h304-k-no!7i3168!8i4752!4m18!1m12!4m11!1m6!1m2!1s0xd6a0ba4554d32ff:0xc5d940fb5fb95c60!2sAlc%C3%A1zar+de+Toledo,+Calle+de+la+Union,+s%2Fn,+45001+Toledo!2m2!1d-4.0204962!2d39.8577545!1m3!2m2!1d-4.023566!2d39.857489!3m4!1s0xd6a0ba682143eab:0x4664c822c8f25b30!8m2!3d39.8570997!4d-4.0235688?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+        <HITO>
+            <NOMBRE>Mezquita del Cristo de la Luz</NOMBRE>
+            <DESCRIPCION>Lugar de culto</DESCRIPCION>
+            <COORDENADAS>
+                <LONGITUD>-4.024328</LONGITUD>
+                <LATITUD>39.860667</LATITUD>
+                <ALTITUD>529</ALTITUD>
+            </COORDENADAS>
+            <DIST_ANTERIOR unidades ="metros">600</DIST_ANTERIOR>
+            <GALERIA_IMG>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Mezquita+del+Cristo+de+La+Luz/@39.860605,-4.024193,3a,81.3y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Ft3.gstatic.com%2Fimages%3Fq%3Dtbn:ANd9GcRKhS69l5qnpXxHlj8fnVskqm6JN9I8-OUK-z6j7Mv06LIbhB5C!2e7!3e27!6s%2F%2Flh5.googleusercontent.com%2Fproxy%2FyFY4JC5uDmhHatvRwtPTuLzlfKGtuCTsG2_rT0jwDT3abJ4eRExphZ4ve7WTZ7sC8itCPo5yCZH9nEzqlTkBHZgGEzZWlshuO6Mmj8ASL_QhBisePGrcnxOWsQSudMFp9p0h_minlHFC92XxFNPpYm8BeX4lj1w%3Dw180-h120-k-no!7i1080!8i720!4m18!1m12!4m11!1m6!1m2!1s0xd6a0ba663d233eb:0x7d339edda10a36ee!2sSanta+Iglesia+Catedral+Primada+de+Toledo,+Calle+Cardenal+Cisneros,+1,+45002+Toledo!2m2!1d-4.0235688!2d39.8571004!1m3!2m2!1d-4.024328!2d39.860667!3m4!1s0xd6a0ba618f6f071:0xe0d8bd9b7851315f!8m2!3d39.860605!4d-4.024193?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Mezquita+del+Cristo+de+La+Luz/@39.860605,-4.024193,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNrTJFYWdq8vA6bj8qiijBNNp8yM9uQUd3_7SDQ!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNrTJFYWdq8vA6bj8qiijBNNp8yM9uQUd3_7SDQ%3Dw203-h270-k-no!7i3024!8i4032!4m18!1m12!4m11!1m6!1m2!1s0xd6a0ba663d233eb:0x7d339edda10a36ee!2sSanta+Iglesia+Catedral+Primada+de+Toledo,+Calle+Cardenal+Cisneros,+1,+45002+Toledo!2m2!1d-4.0235688!2d39.8571004!1m3!2m2!1d-4.024328!2d39.860667!3m4!1s0xd6a0ba618f6f071:0xe0d8bd9b7851315f!8m2!3d39.860605!4d-4.024193?hl=es</FOTO>
+                <FOTO name = "PATH">https://www.google.es/maps/place/Mezquita+del+Cristo+de+La+Luz/@39.860605,-4.024193,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOeAVH-x37XUGWSaQPr71Ww4qgdzMh7o82LLZrX!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOeAVH-x37XUGWSaQPr71Ww4qgdzMh7o82LLZrX%3Dw203-h114-k-no!7i4032!8i2268!4m18!1m12!4m11!1m6!1m2!1s0xd6a0ba663d233eb:0x7d339edda10a36ee!2sSanta+Iglesia+Catedral+Primada+de+Toledo,+Calle+Cardenal+Cisneros,+1,+45002+Toledo!2m2!1d-4.0235688!2d39.8571004!1m3!2m2!1d-4.024328!2d39.860667!3m4!1s0xd6a0ba618f6f071:0xe0d8bd9b7851315f!8m2!3d39.860605!4d-4.024193?hl=es</FOTO>
+            </GALERIA_IMG>
+            <GALERIA_VID>
+                <VIDEO>Aqui va el video 1</VIDEO>
+                <VIDEO>Aqui va el video 2</VIDEO>
+                <VIDEO>Aqui va el video 3</VIDEO>
+            </GALERIA_VID>
+        </HITO>
+    </HITOS>
+</RUTA>
+</RUTAS>
